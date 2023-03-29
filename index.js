@@ -24,7 +24,7 @@ app.use(function (req, res, next) {
   );
   res.setHeader(
     "Access-Control-Allow-Methods",
-    "POST, GET, PATCH, DELETE, OPTIONS"
+    "POST, GET, PUT,PATCH, DELETE, OPTIONS"
   );
   next();
 });
